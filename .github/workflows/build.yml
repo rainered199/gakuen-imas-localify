@@ -1,8 +1,8 @@
 name: Android CI
 
 on: 
-workflow_dispatch:
-
+  workflow_dispatch:
+    types [manual-tigger]
 jobs:
   build:
 
